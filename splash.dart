@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:aqsa_school/login.dart';
+import 'package:darwesh_school/login.dart';
 
 class SecondSplashScreen extends StatefulWidget {
   const SecondSplashScreen({super.key});
@@ -59,7 +59,7 @@ class _SecondSplashScreenState extends State<SecondSplashScreen> {
                 const SizedBox(height: 30),
 
                 const Text(
-                  'AqsA Model School Sattoki Kasur',
+                  'Darwesh School Management',
                   style: TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.w900,
@@ -73,7 +73,7 @@ class _SecondSplashScreenState extends State<SecondSplashScreen> {
                 const SizedBox(height: 10),
 
                 const Text(
-                  'An Institute With All Educational Solutions',
+                  'Excellence in Education & Management',
                   style: TextStyle(
                     fontSize: 16,
                     fontStyle: FontStyle.italic,

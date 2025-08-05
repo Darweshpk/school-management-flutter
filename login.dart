@@ -1,4 +1,4 @@
-import 'package:aqsa_school/home.dart';
+import 'package:darwesh_school/home.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -85,7 +85,7 @@ class _FixedLoginScreenState extends State<FixedLoginScreen> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 const Text(
-                  'Aqsa Model School',
+                  'Darwesh School Management',
                   style: TextStyle(
                     fontSize: 26,
                     fontWeight: FontWeight.bold,

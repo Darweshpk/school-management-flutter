@@ -1,7 +1,7 @@
-import 'package:aqsa_school/splash.dart';
+import 'package:darwesh_school/splash.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-import 'package:aqsa_school/home.dart';
+import 'package:darwesh_school/home.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
@@ -9,11 +9,11 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(const AqsaApp());
+  runApp(const DarweshApp());
 }
 
-class AqsaApp extends StatelessWidget {
-  const AqsaApp({super.key});
+class DarweshApp extends StatelessWidget {
+  const DarweshApp({super.key});
 
   @override
   Widget build(BuildContext context) {
