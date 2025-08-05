@@ -1,11 +1,11 @@
-import 'package:aqsa_school/add_record.dart';
-import 'package:aqsa_school/arrears_list.dart';
-import 'package:aqsa_school/contact.dart';
-import 'package:aqsa_school/faq.dart';
-import 'package:aqsa_school/login.dart';
-import 'package:aqsa_school/privacy_policy.dart';
-import 'package:aqsa_school/settings.dart';
-import 'package:aqsa_school/view_records.dart';
+import 'package:darwesh_school/add_record.dart';
+import 'package:darwesh_school/arrears_list.dart';
+import 'package:darwesh_school/contact.dart';
+import 'package:darwesh_school/faq.dart';
+import 'package:darwesh_school/login.dart';
+import 'package:darwesh_school/privacy_policy.dart';
+import 'package:darwesh_school/settings.dart';
+import 'package:darwesh_school/view_records.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'about.dart' show AboutSchoolScreen;
@@ -80,7 +80,7 @@ class _HomeDashboardState extends State<HomeDashboard> {
                   ),
                   SizedBox(height: 5),
                   Text(
-                    'AqsA Model School',
+                    'Darwesh School Management',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 18,
@@ -90,7 +90,7 @@ class _HomeDashboardState extends State<HomeDashboard> {
                   ),
                   SizedBox(height: 2),
                   Text(
-                    'Sattoki, Kasur',
+                    'Excellence in Education',
                     style: TextStyle(
                       color: Colors.amberAccent,
                       fontSize: 11,
@@ -121,7 +121,7 @@ class _HomeDashboardState extends State<HomeDashboard> {
       ),
       appBar: AppBar(
         title: const Text(
-          'AqsA Model School',
+          'Darwesh School Management',
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.deepPurple,

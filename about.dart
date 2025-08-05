@@ -7,7 +7,7 @@ class AboutSchoolScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('About AqsA School', style: TextStyle(color: Colors.white),),
+        title: const Text('About Darwesh School Management', style: TextStyle(color: Colors.white),),
         backgroundColor: Colors.deepPurple,
         iconTheme: const IconThemeData(color: Colors.white),
       ),
@@ -19,7 +19,7 @@ class AboutSchoolScreen extends StatelessWidget {
             children: const [
               Center(
                 child: Text(
-                  'AqsA Model School Sattoki Kasur',
+                  'Darwesh School Management System',
                   style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.center,
                 ),
@@ -27,7 +27,7 @@ class AboutSchoolScreen extends StatelessWidget {
               SizedBox(height: 8),
               Center(
                 child: Text(
-                  'An Institute With All Educational Solutions',
+                  'Excellence in Education & Management',
                   style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
                   textAlign: TextAlign.center,
                 ),
@@ -40,12 +40,12 @@ class AboutSchoolScreen extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
-                'AqsA Model School ....., located in the heart of ..... district, is a beacon of knowledge and excellence. Founded with the vision of providing quality education at an affordable cost, it has grown to become a trusted name among parents and students alike. From foundational early education to higher-level academic preparation, our institute delivers a comprehensive and balanced curriculum tailored to 21st-century needs.',
+                'Darwesh School Management System is designed to provide comprehensive educational solutions with modern management tools. Our institution focuses on delivering quality education while maintaining efficient administrative processes. We combine traditional educational values with contemporary management techniques to create an environment where students can thrive academically and personally.',
                 style: TextStyle(fontSize: 15),
               ),
               SizedBox(height: 10),
               Text(
-                'Our passionate and qualified teaching staff ensure that every student receives individual attention, emotional support, and academic growth. Our classrooms are equipped with modern facilities, and we constantly innovate using digital tools and personalized assessments. The goal is not just learning — but meaningful, value-driven learning.',
+                'Our dedicated team of educators and administrators work tirelessly to ensure that every student receives personalized attention and support. With state-of-the-art facilities and innovative teaching methodologies, we prepare students for the challenges of the modern world while instilling strong moral values and character development.',
               ),
 
               SizedBox(height: 20),
@@ -54,10 +54,11 @@ class AboutSchoolScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 6),
-              Text('- Quality education for every child'),
-              Text('- Respect, integrity, and discipline'),
-              Text('- A blend of modern and moral learning'),
-              Text('- Active parent-teacher collaboration'),
+              Text('- Excellence in education and management'),
+              Text('- Student-centered approach to learning'),
+              Text('- Innovation in teaching and administration'),
+              Text('- Strong community partnerships'),
+              Text('- Continuous improvement and development'),
 
               SizedBox(height: 20),
               Text(
@@ -65,9 +66,9 @@ class AboutSchoolScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 6),
-              Text('📧 Email: ..........@gmail.com'),
-              Text('📞 Phone: ............'),
-              Text('📍 Location: ...............'),
+              Text('📧 Email: info@darweshschool.edu'),
+              Text('📞 Phone: +92-XXX-XXXXXXX'),
+              Text('📍 Location: Educational District, Pakistan'),
 
               SizedBox(height: 20),
               Text(
@@ -75,7 +76,7 @@ class AboutSchoolScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
-                  'To nurture young minds into responsible, confident, and productive citizens of tomorrow by instilling strong values, academic excellence, and creative problem-solving.'
+                  'To be a leading educational institution that combines academic excellence with innovative management practices, preparing students to become responsible global citizens and future leaders.'
               ),
 
               SizedBox(height: 20),
@@ -84,13 +85,13 @@ class AboutSchoolScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
-                  '- Launch digital classrooms and e-learning platforms\n- Expand subject choices in higher classes\n- Organize national-level competitions and seminars\n- Partner with tech & educational institutes for innovation'
+                  '- Implement advanced digital learning platforms\n- Expand STEM education programs\n- Strengthen international educational partnerships\n- Develop innovative assessment and management systems\n- Foster research and development initiatives'
               ),
 
               SizedBox(height: 30),
               Center(
                 child: Text(
-                  'Proud to serve the future of our nation — One Child at a Time.',
+                  'Committed to Excellence in Education and Management',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
