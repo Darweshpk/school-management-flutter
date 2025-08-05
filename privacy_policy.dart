@@ -23,7 +23,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
               ),
               SizedBox(height: 16),
               Text(
-                'AqsA Model School Sattoki Kasur values the privacy and protection of our students, parents, and faculty. This application is designed to manage and monitor essential school operations while respecting the confidentiality and integrity of all data stored within.',
+                'Darwesh School Management System values the privacy and protection of our students, parents, and faculty. This application is designed to manage and monitor essential school operations while respecting the confidentiality and integrity of all data stored within our secure systems.',
                 style: TextStyle(fontSize: 15),
               ),
               SizedBox(height: 12),
@@ -32,7 +32,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
-                  'We collect necessary data such as student name, guardian information, class, contact number, and fee-related entries solely for academic and financial recordkeeping. No personal data is sold, shared, or disclosed to third parties.'
+                  'We collect necessary data such as student information, guardian details, academic records, contact information, and fee-related entries solely for educational and administrative purposes. No personal data is sold, shared, or disclosed to unauthorized third parties.'
               ),
               SizedBox(height: 12),
               Text(
@@ -40,7 +40,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
-                  'All collected information is used strictly within the domain of AqsA Model School to ensure smooth academic, fee management, and communication processes. The app helps in maintaining monthly fees, book details, arrears, and student progress.'
+                  'All collected information is used strictly within the domain of Darwesh School Management to ensure smooth academic operations, fee management, attendance tracking, and communication processes. The system helps in maintaining comprehensive student records, academic progress, and administrative efficiency.'
               ),
               SizedBox(height: 12),
               Text(
@@ -48,7 +48,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
-                  'We store all data in a secure cloud database (Firebase) protected by authentication and secure access policies. Only the assigned admin is granted login access. No student or unauthorized person can log in or access school records.'
+                  'We store all data in secure cloud databases protected by advanced authentication and encryption protocols. Only authorized school administrators and designated staff have access to student records. Multi-layer security measures ensure data protection and system integrity.'
               ),
               SizedBox(height: 12),
               Text(
@@ -56,27 +56,43 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
-                  'This app does not use third-party advertisements or services that may access your personal information.'
+                  'Our application uses trusted third-party services only for essential functions such as secure data storage and system analytics. We do not use third-party advertisements or services that may compromise your personal information.'
               ),
               SizedBox(height: 12),
               Text(
-                '5. Responsibility:',
+                '5. Access Control:',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
-                  'While utmost care is taken to maintain privacy, AqsA Model School holds the right to update, modify or revise this policy at any time to meet academic or legal requirements.'
+                  'Access to the management system is strictly controlled through secure authentication. Only authorized personnel with proper credentials can access student records and administrative functions. Regular access audits ensure system security.'
               ),
               SizedBox(height: 12),
               Text(
-                '6. Consent:',
+                '6. Data Rights:',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
-                  'By using this application, you agree to the terms and conditions of this privacy policy. Continued usage of the app indicates your acceptance of how we manage and use data.'
+                  'Parents and students have the right to request information about their stored data and can request corrections to inaccurate information through proper channels. We are committed to maintaining accurate and up-to-date records.'
+              ),
+              SizedBox(height: 12),
+              Text(
+                '7. Policy Updates:',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Text(
+                  'Darwesh School Management reserves the right to update, modify, or revise this policy as needed to meet educational, technological, or legal requirements. Users will be notified of significant policy changes.'
+              ),
+              SizedBox(height: 12),
+              Text(
+                '8. Consent:',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Text(
+                  'By using this application, you agree to the terms and conditions of this privacy policy. Continued usage indicates your acceptance of how we collect, manage, and protect your data.'
               ),
               SizedBox(height: 20),
               Text(
-                'If you have any concerns regarding our policy, feel free to contact us at AqsA Model School Sattoki, Kasur.',
+                'For any concerns regarding our privacy policy, please contact us at Darwesh School Management System. We are committed to addressing your privacy concerns promptly and transparently.',
                 style: TextStyle(fontStyle: FontStyle.italic),
               ),
             ],

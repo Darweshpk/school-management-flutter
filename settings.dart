@@ -1,6 +1,6 @@
-import 'package:aqsa_school/about.dart';
-import 'package:aqsa_school/faq.dart';
-import 'package:aqsa_school/privacy_policy.dart';
+import 'package:darwesh_school/about.dart';
+import 'package:darwesh_school/faq.dart';
+import 'package:darwesh_school/privacy_policy.dart';
 import 'package:flutter/material.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -93,7 +93,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ListTile(
             leading: const Icon(Icons.info_outline, color: Colors.deepPurple),
             title: const Text('About School'),
-            subtitle: const Text('Learn about AqsA Model School'),
+            subtitle: const Text('Learn about Darwesh School Management'),
             onTap: () {
               Navigator.push(
                 context,
