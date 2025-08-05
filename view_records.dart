@@ -1,10 +1,10 @@
 // ✅ Updated View Screen with Beautiful Buttons for
 // Fee, Paper, and Books Details Navigation
 
-import 'package:aqsa_school/book_detail.dart';
-import 'package:aqsa_school/fee_detail.dart';
-import 'package:aqsa_school/paper_detail.dart';
-import 'package:aqsa_school/update.dart';
+import 'package:darwesh_school/book_detail.dart';
+import 'package:darwesh_school/fee_detail.dart';
+import 'package:darwesh_school/paper_detail.dart';
+import 'package:darwesh_school/update.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 class ViewRecordsScreen extends StatelessWidget {
